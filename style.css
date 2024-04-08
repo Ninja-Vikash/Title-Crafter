@@ -1,3 +1,40 @@
+@font-face {
+    font-family: font-extralight;
+    src: url("./fonts/Poppins-ExtraLight.ttf");
+}
+@font-face {
+    font-family: font-thin;
+    src: url("./fonts/Poppins-Thin.ttf");
+}
+@font-face {
+    font-family: font-light;
+    src: url("./fonts/Poppins-Light.ttf");
+}
+@font-face {
+    font-family: font-regular;
+    src: url("./fonts/Poppins-Regular.ttf");
+}
+@font-face {
+    font-family: font-medium;
+    src: url("./fonts/Poppins-Medium.ttf");
+}
+@font-face {
+    font-family: font-semibold;
+    src: url("./fonts/Poppins-SemiBold.ttf");
+}
+@font-face {
+    font-family: font-bold;
+    src: url("./fonts/Poppins-Bold.ttf");
+}
+@font-face {
+    font-family: font-extrabold;
+    src: url("./fonts/Poppins-ExtraBold.ttf");
+}
+@font-face {
+    font-family: font-black;
+    src: url("./fonts/Poppins-Black.ttf");
+}
+
 * {
   margin : 0;
   padding : 0;
@@ -36,7 +73,7 @@ body {
 #main div:nth-child(2) label {
     font-size: 52px;
     font-weight: 600;
-    font-family: Poppins;
+    font-family: font-semibold;
     letter-spacing: 6px;
     text-transform: uppercase;
     display: flex;
@@ -48,6 +85,7 @@ body {
 #main div:nth-child(2) label span {
     font-size: 48px;
     letter-spacing: 3px;
+    font-family: font-thin;
     font-weight: 200;
 }
 
@@ -55,6 +93,7 @@ body {
     padding: 15px 20px;
     border: none;
     border-radius: 5px;
+    font-family: font-regular;
     font-size: 24px;
     background-color: rgba(255, 255, 255, 0.153);
 }
@@ -110,7 +149,7 @@ body {
 #main div:nth-child(3) h2 {
     text-align: center;
     text-transform: uppercase;
-    font-family: Poppins;
+    font-family: font-regular;
     font-weight: 300;
     font-size: 16px;
 }
@@ -147,7 +186,7 @@ body {
 #main > p {
     position: absolute;
     bottom: 20px;
-    font-family: Poppins;
+    font-family: font-regular;
     font-size: 14px;
     letter-spacing: 1px;
     color: #888;
